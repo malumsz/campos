@@ -48,7 +48,7 @@ public class Reserva implements Serializable {
         return dataReserva;
     }
     
-    public String getnome() {
+    public String getNome() {
         return nome;
     }
 
@@ -68,7 +68,7 @@ public class Reserva implements Serializable {
         this.quadra = quadra;
     }
 
-    public void setnome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }  
     

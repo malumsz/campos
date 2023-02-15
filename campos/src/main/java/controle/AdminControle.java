@@ -27,11 +27,11 @@ public class AdminControle {
         this.admin = admin;
     }
 
-    public Usuario getusuario() {
+    public Usuario getUsuario() {
         return usuario;
     }
 
-    public void setusuario(Usuario usuario) {
+    public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
 

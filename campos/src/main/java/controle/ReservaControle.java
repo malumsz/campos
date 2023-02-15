@@ -21,7 +21,7 @@ public class ReservaControle implements Serializable {
 
     }
 
-    public List<Reserva> getlistaReserva() {
+    public List<Reserva> getListaReserva() {
         return listaReserva;
     }
 

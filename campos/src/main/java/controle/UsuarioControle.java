@@ -21,7 +21,7 @@ public class UsuarioControle implements Serializable {
     public void iniciar() {
     }
     
-    public List<Usuario> getlistaUsuarios() {
+    public List<Usuario> getListaUsuarios() {
         return listaUsuarios;
     }
 

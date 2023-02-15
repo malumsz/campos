@@ -12,7 +12,7 @@ import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-public class Usuario extends Aluno implements Serializable {
+public class Usuario extends Pessoa implements Serializable {
     private String tipo;
     public Boolean pendente;
 

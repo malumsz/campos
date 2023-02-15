@@ -47,11 +47,11 @@ public class Quadra implements Serializable {
         this.tipo = tipo;
     }
 
-    public Usuario getusuario() {
+    public Usuario getUsuario() {
         return usuario;
     }
 
-    public void setusuario(Usuario usuario) {
+    public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
 

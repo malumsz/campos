@@ -27,7 +27,7 @@ public class Dao<T> implements Serializable {
     }
 
     public T buscarPorCodigo(Integer codigo) throws ExcecaoCodigoNaoEncontrado {
-        return objeto;
+        return null;
     }
 
     public T buscarPorNome(String nome) {
@@ -43,7 +43,7 @@ public class Dao<T> implements Serializable {
     }
 
     public List<T> listarTodos() {
-        return lista;
+        return null;
     }
 
 }

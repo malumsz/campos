@@ -19,11 +19,11 @@ public class QuadraControle implements Serializable {
 
     }
 
-    public List<Usuario> getlistaUsuario() {
+    public List<Usuario> getListaUsuario() {
         return listaUsuario;
     }
 
-    public void setlistaUsuario(List<Usuario> listaUsuario) {
+    public void setListaUsuario(List<Usuario> listaUsuario) {
         this.listaUsuario = listaUsuario;
     }
 
@@ -31,11 +31,11 @@ public class QuadraControle implements Serializable {
         dao.inserir(quadra);
     }
 
-    public Quadra getquadra() {
+    public Quadra getQuadra() {
         return quadra;
     }
 
-    public void setquadra(Quadra quadra) {
+    public void setQuadra(Quadra quadra) {
         this.quadra = quadra;
     }
 }

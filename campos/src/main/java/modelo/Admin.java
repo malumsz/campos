@@ -8,7 +8,7 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-public class Admin extends Aluno implements Serializable {
+public class Admin extends Pessoa implements Serializable {
     Boolean autenticar;
 
     public Admin() { 
@@ -19,11 +19,11 @@ public class Admin extends Aluno implements Serializable {
         this.autenticar = autenticar;
     }
     
-    public Boolean getautenticar() {
+    public Boolean getAutenticar() {
         return autenticar;
     }
 
-    public void setautenticar(Boolean autenticar) {
+    public void setAutenticar(Boolean autenticar) {
         this.autenticar = autenticar;
     }
 
